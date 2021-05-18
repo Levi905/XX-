@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#login_top_user {
+  width: 100%;
+  height: 28px;
+}
+
+#login_top_user p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+#login_top_user p:first-child {
+  margin-left: 70%;
+}
+
+#login_top_logo {
+  width: 100%;
+  height: 93px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+#login_top_logo img {
+  width: 11%;
+  height: 49px;
+  margin-top: 22px;
+  margin-left: 25%;
+}
+
+#login_top_logo div {
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 93px;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-left: 1%;
+}
+
+#login_login {
+  width: 43%;
+  height: 510px;
+  margin-top: 39px;
+  margin-left: 28%;
+  display: flex;
+}
+
+#login_login .left {
+  width: 65%;
+  height: 100%;
+}
+
+#login_login .left p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#login_login .left div {
+  display: flex;
+}
+
+#login_login .left div:first-child img {
+  width: 5%;
+  height: 5%;
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+#login_login .left div:first-child span {
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+#login_login .left .xian {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 4%;
+  border: 0.5px dashed gray;
+}
+
+#login_login .left .username {
+  height: 7%;
+  margin-top: 5%;
+  margin-left: 13%;
+}
+
+#login_login .left .password {
+  height: 7%;
+  margin-left: 17.2%;
+}
+
+#login_login .left .yan {
+  height: 7%;
+  margin-left: 13%;
+}
+
+#login_login .rigth {
+  width: 35%;
+  height: 100%;
+}
+
+#login_login .rigth img {
+  width: 100%;
+  height: 16%;
+}
+
+#login_login .rigth span:last-child {
+  color: red;
+}
