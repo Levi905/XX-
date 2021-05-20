@@ -1,7 +1,7 @@
 document.write(`<div id="footer">
 <div id="footer-top">
     <ul>
-        <li><img src="../img/cinema_67.png" alt=""> 新手上路</li>
+        <li><img src="../images/cinema_67.png" alt=""> 新手上路</li>
         <li>注册登录问题</li>
         <li>用户绑定会员卡问题</li>
         <li>影票相关问题</li>
@@ -9,14 +9,14 @@ document.write(`<div id="footer">
         <li>取票凭证吗和取票问题</li>
     </ul>
     <ul>
-        <li><img src="../img/cinema_69.png" alt="">购票指南</li>
+        <li><img src="../images/cinema_69.png" alt="">购票指南</li>
         <li>用户购票流程</li>
         <li>取票观影指南</li>
         <li>会员卡支付相关说明</li>
         <li>网银支付相关说明</li>
     </ul>
     <ul>
-        <li><img src="../img/cinema_72.png" alt="">会员权益</li>
+        <li><img src="../images/cinema_72.png" alt="">会员权益</li>
         <li>会员订票权益</li>
         <li>会员积分权益</li>
         <li>入会资格</li>
@@ -24,7 +24,7 @@ document.write(`<div id="footer">
         
     </ul>
     <ul>
-        <li><img src="../img/cinema_74.png" alt="">联系我们</li>
+        <li><img src="../images/cinema_74.png" alt="">联系我们</li>
         <li>手机客户端介绍与下载</li>
         <li>影片信息查询</li>
         <li>手机自助购票</li>

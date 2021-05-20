@@ -9,7 +9,7 @@ document.write(`<div id="top-top">
 </div>
 <div id="top-logo">
 <div id="top-logo-img">
-    <img src="../img/cinema_10.png" alt="">
+    <img src="../images/cinema_10.png" alt="">
 </div>
 <p>佛山<br><span>[更换城市]</span></p>
 </div>
