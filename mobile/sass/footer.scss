@@ -1,0 +1,28 @@
+#footer{
+    width: 100%;
+    background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    padding: .1rem;
+    box-sizing: border-box;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: .5rem;
+        justify-content: space-evenly;
+        li{
+            text-align: center;
+            line-height: normal;
+            line-height: 0.4rem;
+            span{
+                font-size: .28rem;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
