@@ -1,0 +1,191 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+    font-size: 50px;
+    font-family: "楷体";
+}
+// 头部
+#header{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 0.7rem;
+    font-size: 0.4rem;
+    color: #ffffff;
+    padding: 0.8rem 0.5rem;
+    box-sizing: border-box;
+    background-color: rosybrown;
+}
+// 影片说明
+#yp-shuom{
+    width: 100%;
+    height: 3.2rem;
+    padding: 0.3rem 0.4rem;
+    margin-bottom: 0.2rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    div{
+        width: 2.2rem;
+        height: 100%;
+        border-radius: 7%;
+        background-color: royalblue;
+        background-image: url("../images/main_03.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    p{
+        margin: 0;
+        font-size: 0.3rem;
+        color: gray;
+        width: 5rem;
+        padding: 0.7rem 0.3rem; 
+        box-sizing: border-box;
+        span{
+            font-size: 0.4rem;
+            color: black;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.1rem;
+        }
+        .danhao{
+            font-size: 0.32rem;
+            color: blue;
+            font-weight:normal;
+        }
+    }
+}
+// 观影说明
+#gy-shuom{
+    width: 100%;
+    height: 4rem;
+    padding: 0.1rem 0.4rem;
+    font-size: 0.3rem;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    table{
+        width: 100%;
+        tr{
+            height: 0.45rem;
+        }
+        tr:last-child td span{
+                color: red;
+        }
+    }
+    .td-right{
+        width: 2.8rem;
+        text-align: left;
+    }
+    // 加粗字体
+    .font{
+        font-weight: bold;
+    }
+    // 座位
+    .blue{
+        display: flex;
+        span{
+            width: 0.5rem;
+            height: 0.5rem;
+            line-height: 0.5rem;
+            margin-right: 0.2rem;
+            text-align: center;
+            border-radius: 20%;
+            color: #ffffff;
+            font-size: 0.3rem;
+            display: block;
+            background-color: rgba(0, 76, 255, 0.623);
+        }
+    }
+}
+//总计
+#yp-sum{
+    width: 100%;
+    height: 4.3rem;
+    box-sizing: border-box;
+    padding: 1.3rem 0.3rem;
+    margin-top: 0.2rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    p{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        span{
+            display: block;
+        }
+    }
+}
+// 模态框按钮
+.btn-primary{
+    margin-bottom: 0rem;
+    width: 100%;
+    height: 1.3rem;
+    line-height: 0.2rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    background-color: rgba(0, 76, 255, 0.623);
+}
+// 模态框centerdiv
+.modal-content{
+    padding:0 0.2rem ;
+    margin-top: 5.55rem;
+    width: 100%;
+    height: 100%;
+}
+// 模态框header
+.modal-header{
+    display: flex;
+    padding: 0.3rem 0.1rem;
+    #exampleModalLabel{
+        font-size: 0.3rem;
+        font-weight: bold;
+        width:7rem;
+    }
+    .close{
+        
+        font-size: 0.3rem;
+        span{
+            width: 2rem;
+            color: black;
+            text-align: right;
+            display: block;
+            font-size: 0.3rem;
+        }
+    }
+}
+//模态框body
+.modal-body{
+    width:100%  ;
+    height: 3rem;
+    padding: 0rem;
+    border-radius: 3%;
+    box-sizing: border-box;
+    img{
+       width: 100%;
+    }
+}
+//模态框p
+#exampleModal p{
+    margin: 0;
+    margin: 0.4rem 0;
+}
+//模态框按钮部分
+.modal-footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 1.8rem;
+    button{
+        width: 100%;
+        height: 0.5rem;
+        line-height: 0.1rem;
+        font-size: 0.4rem;
+        font-weight: normal;
+        border-radius: 0.2rem;
+        background-color: rgba(0, 76, 255, 0.623);
+    }
+}
+

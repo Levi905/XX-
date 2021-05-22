@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../util/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/right.min.css">
+    <link rel="stylesheet" href="../css/head.min.css">
+    <link rel="stylesheet" href="../css/footer.min.css">
+    <link rel="stylesheet" href="../css/movie-main.min.css">
+    <link rel="stylesheet" href="../css/css_whir.css">
+    <style>
+       #star,
+      .star {
+        background-image: url(../images/star_big.png) !important;
+        background-repeat: no-repeat;
+        width: 103px;
+        height: 20px;
+        display: inline-block;
+      }
+      #star ul {
+        width: 103px;
+        height: 20px;
+        display: flex;
+      }
+      #star li {
+        flex-grow: 1;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- 头部 -->
+  <div id="top-top">
+    <ul>
+        <li><img src="../images/cinema_03.png" alt=""></li>
+        <li><img src="../images/cinema_05.png" alt=""></li>
+        <li><a href="#">登录</a></li>|
+        <li><a href="#">注册</a></li>|
+        <li> 全国服务热线：888-8888888</li>
+    </ul>
+</div>
+<div id="top-logo">
+    <div id="top-logo-img">
+        <img src="../images/cinema_10.png" alt="">
+    </div>
+    <p>佛山<br><span>[更换城市]</span></p>
+</div>
+<div id="top-nav">
+    <ul>
+        <li class="red"><a href="#">首页</a></li>|
+        <li class=""><a href="#">影片</a></li>|
+        <li class=""><a href="#">影城</a></li>|
+        <li class=""><a href="#">购票</a></li>|
+        <li class=""><a href="#">影城活动</a></li>|
+        <li class=""><a href="#">会员服务</a></li>|
+        <li class=""><a href="#">顾客互动</a></li>|
+    </ul>
+    <input type="text" placeholder="搜索影片" id="search"><button id="btn-search"></button>
+</div>
+
+
+
+
+
+
+
+
+    <div id="cinema-main">
+        <div id="cinema-main-left">
+            <div id="main-top">
+                广州共<span> 8 </span>家影城上映该片，共 <span>28</span>个场次
+            </div>
+            <!-- 插入卡片 -->
+            <h1>哪吒之魔童降世 <span> 8.7分 </span></h1>
+            <div class="card mb-3" style="max-width: 720px;" >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="../images/main_03.png" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text">导 &nbsp&nbsp&nbsp&nbsp&nbsp演：饺子</p>
+                    <p class="card-text">领衔主演：吕艳婷、囧森瑟夫、瀚墨、陈浩、绿绮、张珈铭、杨卫</p>
+                    <p class="card-text">国家/地区：中国/香港</p>
+                    <p class="card-text">类 &nbsp&nbsp&nbsp&nbsp&nbsp型 ：动画电影</p>
+                    <p class="card-text">片 &nbsp&nbsp&nbsp&nbsp&nbsp长 ：110 分钟</p>
+                    <p class="card-text">上映时间：2019-7-26</p>
+                    <p class="card-text">语  &nbsp&nbsp&nbsp&nbsp&nbsp 言 ：中文</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div id="m-t-nav">
+              <p class="">排片购票</p>
+              <p class="word-color">剧情与评论</p>
+              <p class="">预告片</p>
+            </div>
+
+            <div id="m-t-main">
+              <h2>哪吒之魔童降世 剧情简介</h2>
+              <p>《哪吒之魔童降世》是由霍尔果斯彩条屋影业有限公司出品的动画电影，由饺子执导兼编剧，吕艳婷、囧森瑟夫、瀚墨、陈浩、绿绮、张珈铭、杨卫担任主要配音。该片改编自中国神话故事，讲述了哪吒虽“生而为魔”却“逆天而行斗到底”的成长经历的故事。该片于2019年7月26日在中国内地上映。2019年9月6日，第十二届中国国际漫画节开幕式暨第16届中国动漫金龙奖颁奖大会于广州举行。《哪吒之魔童降世》获得最佳动画长片奖 ...</p>
+              <h2>剧照海报</h2>
+              <img src="../images/main_07.png" alt="">
+            </div>
+
+
+
+
+            <!-- pinglun -->
+            <div class="Comment">
+              <div class="them" id="them">哪吒之魔童降世 全部评论</div>
+              <dl id="commentList">
+                <dt>
+                  <span class="jiao"></span>
+                  <div class="Portrait_big"><img src="../images/Portrait.jpg" /></div>
+                  <div class="Iwant">
+                    <div class="point">
+                      我要评分：
+                      <span id="star" class="">
+                        <ul>
+                          <li id="star1" onclick="clickStar(1)" ></li>
+                          <li id="star2" onclick="clickStar(2)"></li>
+                          <li id="star3" onclick="clickStar(3)"></li>
+                          <li id="star4" onclick="clickStar(4)"></li>
+                          <li id="star5" onclick="clickStar(5)"></li>
+                        </ul>
+                      </span>
+                      <b id="star-mark">0.0</b><span id="star-content"></span>
+                    </div>
+                    <textarea id="new-comment" style="width: 100%;"></textarea>
+                  </div>
+                  <div class="btn_box">
+                    <a href="#" class="face"></a>
+                    <span>140字</span><a href="#" class="fb" onclick="commit();">我要发布</a>
+                  </div>
+                </dt>
+        
+                <!-- 动态生成 -->
+                <dd>
+                  <div class="Portrait_small">
+                    <img src="../images/Portrait_small.jpg" />
+                  </div>
+                  <div class="pepole">
+                    打酱油的<span class="star star4"></span
+                    ><em><b>8.0</b> 2014/2/9 22:18:59</em>
+                  </div>
+                  <div class="nr">好看好笑……</div>
+                </dd>
+                <!-- 动态生成结束,追加到dl中 -->
+              </dl>
+            </div>
+        </div>
+
+        <!-- 
+          重复右边
+         -->
+
+        <div id="cinema-main-right">
+            <div id="c-m-r-top">
+              <p>快速购票<br><span>QUICK TICKET</span></p>
+              <input type="text" placeholder="选择影院" id="cinema"><br>
+              <input type="text" placeholder="选择电影" id="movie"><br>
+              <input type="text" placeholder="选择时间" id="date"><br>
+              <input type="text" placeholder="选择场次" id="times"><br>
+              <button id="quick-buy">立即购票</button>
+            </div>
+            <div id="c-m-r-bottom">
+              <p><span>影院活动</span>更多>></p>
+
+              <!-- 插入卡片 -->
+
+              <div class="card mb-3" style="max-width: 540px;" >
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="../images/cinema_40.png" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">飞驰人生</h5>
+                      <p class="card-text">9月13日上映</p>
+                      <p class="card-text">类型：剧情/悬疑</p>
+                      <p class="card-text">片长：119分钟</p>
+                      <p id="bg">预告片</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 540px;" >
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="../images/cinema_40.png" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">飞驰人生</h5>
+                      <p class="card-text">9月13日上映</p>
+                      <p class="card-text">类型：剧情/悬疑</p>
+                      <p class="card-text">片长：119分钟</p>
+                      <p id="bg">预告片</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- 底部 -->
+<div id="footer">
+  <div id="footer-top">
+      <ul>
+          <li><img src="../images/cinema_67.png" alt=""> 新手上路</li>
+          <li>注册登录问题</li>
+          <li>用户绑定会员卡问题</li>
+          <li>影票相关问题</li>
+          <li>票价和支付问题</li>
+          <li>取票凭证吗和取票问题</li>
+      </ul>
+      <ul>
+          <li><img src="../images/cinema_69.png" alt="">购票指南</li>
+          <li>用户购票流程</li>
+          <li>取票观影指南</li>
+          <li>会员卡支付相关说明</li>
+          <li>网银支付相关说明</li>
+      </ul>
+      <ul>
+          <li><img src="../images/cinema_72.png" alt="">会员权益</li>
+          <li>会员订票权益</li>
+          <li>会员积分权益</li>
+          <li>入会资格</li>
+          <li>会员卡折扣说明</li>
+          
+      </ul>
+      <ul>
+          <li><img src="../images/cinema_74.png" alt="">联系我们</li>
+          <li>手机客户端介绍与下载</li>
+          <li>影片信息查询</li>
+          <li>手机自助购票</li>
+      </ul>
+  </div>
+  <div id="footer-bottom">
+      <p>
+          公司介绍  -  合作咨询  -  友情链接  -  网站地图  -  站长统计  -  网站声明
+      </p>
+      <p>
+          Copyright © 2013  ed by 
+      </p>
+  </div>
+</div>
+
+
+    <script src="../util/jQuery/jquery-3.5.0.min.js"></script>
+    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

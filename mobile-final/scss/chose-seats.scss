@@ -1,0 +1,131 @@
+html,body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 50px;
+    font-family: "楷体";
+}
+#top{
+    width: 100%;
+    background-color: rosybrown;
+    #top-top{
+        font-size: .4rem;
+        line-height: 1.2rem;
+        padding:  0 .2rem;
+        box-sizing: border-box;
+        p{
+            line-height: 0;
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+    }
+    #top-middle{
+        width: 100%;
+        margin-top: .2rem;
+        hr{
+            width: 80%;
+            box-shadow: 0 0 10px 5px #ccc;
+        }
+       p{   
+           text-align: center;
+           margin: 0;padding: 0;
+           color: white;
+           font-size: .5rem;
+       }
+    }
+    #sitting_list{
+        width: 100%;
+        padding: .4rem;
+        box-sizing: border-box;
+        .row{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin: 0;padding: 0;
+            margin-top: .2rem;
+            dd{
+                margin: 0;padding: 0;
+            }
+            .kx{
+                width: .6rem;
+                height: .5rem;
+                text-align: center;
+                line-height: .5rem;
+                color: white;
+                font-size: .28rem;
+                border:1px solid #ccc;
+                box-sizing: border-box;
+                border-radius: 10%;
+            }
+        }
+        .chose{
+        font-size: .28rem;
+        color: white;
+        }
+        .yx{
+            width: .6rem;
+                height: .5rem;
+                border:1px solid #ccc;
+                box-sizing: border-box;
+            background-color: rgba(0,76,255,0.623);
+            border-radius: 10%;
+        }
+        .ys{
+            width: .6rem;
+                height: .5rem;
+                border:1px solid #ccc;
+                box-sizing: border-box;
+            background-color: gray;
+            border-radius: 10%;
+        }
+        
+    }
+}
+
+
+#main-pay{
+    width: 100%;
+    padding: .2rem .4rem;
+    box-sizing: border-box;
+    font-size: .28rem;
+    #seats-money{
+        padding: .1rem;
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: .2rem;
+        height: 1.3rem;
+        border: 1px solid #ccc;
+        td{
+            width:3rem;
+            height: .5rem;
+        }
+        .seatss{
+            span{
+                display: inline-block;
+                width: .4rem;
+                height: .4rem;
+                border-radius: .1rem;
+                line-height: .4rem;
+                text-align: center;
+                background-color:  rgba(0,76,255,0.623);
+                margin-left: .1rem;
+                color: #fff;            
+            }
+        }
+        .price{
+            color:  rgba(0,76,255,0.623);
+        }
+    }
+    #pay{
+        height: 1rem;
+        margin-top: .2rem;
+        font-size: .42rem;
+        outline: none;
+        border: none;
+        color: white;
+        background-color:  rgba(0,76,255,0.623);
+        width: 100%;
+        border-radius:.1rem;
+    }
+}

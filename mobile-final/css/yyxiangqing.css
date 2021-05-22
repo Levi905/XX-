@@ -1,0 +1,145 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  font-family: "楷体";
+}
+
+html #header-img, body #header-img {
+  width: 100%;
+  height: 3.5rem;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+  background-image: url("../images/cinema_25.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html #box-text, body #box-text {
+  width: 100%;
+  height: 2rem;
+  padding: 0.3rem;
+  box-sizing: border-box;
+}
+
+html #box-text h6, body #box-text h6 {
+  margin: 0;
+  font-size: 0.4rem;
+}
+
+html #box-text p, body #box-text p {
+  margin: 0;
+  margin-top: 0.1rem;
+  font-size: 0.3rem;
+  color: #2f2e2e;
+}
+
+html #box-text2, body #box-text2 {
+  width: 100%;
+  height: 1rem;
+  padding: 0.2rem;
+  box-sizing: border-box;
+}
+
+html #box-text2 ul, body #box-text2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.34rem;
+  font-weight: bold;
+  display: flex;
+  box-sizing: border-box;
+}
+
+html #box-text2 ul li:nth-child(2), body #box-text2 ul li:nth-child(2) {
+  width: 33.5%;
+  height: 1.5rem;
+  font-size: 0.3rem;
+  color: gray;
+  font-weight: normal;
+}
+
+html #box-text2 ul li:nth-child(2) .border, body #box-text2 ul li:nth-child(2) .border {
+  margin-left: 0.02rem;
+  color: white;
+  border-radius: 50%;
+  background-color: #afadad;
+}
+
+html #box-text2 ul li:nth-child(2) .color, body #box-text2 ul li:nth-child(2) .color {
+  background-color: royalblue;
+}
+
+html #box-text2 ul li, body #box-text2 ul li {
+  width: 32%;
+  height: 1rem;
+}
+
+html #box-text2 ul span, body #box-text2 ul span {
+  font-size: 0.3rem;
+  color: gray;
+  font-weight: normal;
+}
+
+html #tese, body #tese {
+  width: 100%;
+  height: 6rem;
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+}
+
+html #tese h4, body #tese h4 {
+  margin: 0;
+  font-size: 0.37rem;
+  margin: 0.1rem 0;
+}
+
+html #tese .tese-1, html #tese .tese-2, body #tese .tese-1, body #tese .tese-2 {
+  width: 100%;
+  height: 2.7rem;
+  display: flex;
+  padding: 0.1rem;
+  box-sizing: border-box;
+}
+
+html #tese .tese-1 div:nth-child(1), html #tese .tese-2 div:nth-child(1), body #tese .tese-1 div:nth-child(1), body #tese .tese-2 div:nth-child(1) {
+  width: 23%;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  background-color: khaki;
+  background-image: url("../images/main_03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html #tese .tese-1 div:nth-child(2), html #tese .tese-2 div:nth-child(2), body #tese .tese-1 div:nth-child(2), body #tese .tese-2 div:nth-child(2) {
+  width: 77%;
+  height: 2.5rem;
+  padding: 0.1rem;
+  padding-left: 0.4rem;
+  font-size: 0.2rem;
+  box-sizing: border-box;
+}
+
+html #tese .tese-1 div:nth-child(2) h6, html #tese .tese-2 div:nth-child(2) h6, body #tese .tese-1 div:nth-child(2) h6, body #tese .tese-2 div:nth-child(2) h6 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.05rem;
+  font-size: 0.3rem;
+}
+
+html #tese .tese-1 div:nth-child(2) p, html #tese .tese-2 div:nth-child(2) p, body #tese .tese-1 div:nth-child(2) p, body #tese .tese-2 div:nth-child(2) p {
+  margin: 0;
+  font-size: .2rem;
+  margin-bottom: 0.1rem;
+  color: blue;
+}
+
+html #tese .tese-1 div:nth-child(2) span, html #tese .tese-2 div:nth-child(2) span, body #tese .tese-1 div:nth-child(2) span, body #tese .tese-2 div:nth-child(2) span {
+  border: 1px solid rgba(0, 76, 255, 0.623);
+  border-radius: 0.06rem;
+  margin: 0.2rem;
+  font-size: .2rem;
+}

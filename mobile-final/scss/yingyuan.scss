@@ -1,0 +1,119 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-family: "楷体";
+}
+// 头部
+#header-box{
+    width: 100%;
+    height: 2.5rem;
+    background-color: rosybrown;
+    padding: 0 0.5rem;
+    padding-top: 1.5rem;
+    box-sizing: border-box;
+    p{
+        margin: 0;
+        font-size: 0.45rem;
+        color: white;
+    }
+}
+// gps
+#gps-cs{
+    width: 100%;
+    height: 1rem;
+    background-color: rgba(188, 143, 143, 0.808);
+    font-size: 0.5rem;
+    color: white;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+// 就近影城
+#center-box{
+    width: 100%;
+    height: 9rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    overflow: scroll;
+    .center-box1,.center-box2,.center-box3,.center-box4,.center-box5{
+        width: 100%;
+        height: 1.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0.4rem;
+        div{
+            width: 30%;
+            height: 1.4rem;
+            border-radius: 0.1rem;
+            background-image: url("../images/cinema_25.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        p{
+            margin: 0;
+            width: 4.5rem;
+            height: 1.4rem;
+            font-size: 0.3rem;
+            font-weight: bold;
+            padding: 0.4rem;
+            box-sizing: border-box;
+        }
+        
+    }
+    .center-box2{
+        div{
+            background-image: url("../images/cinema_60.png");
+        }
+    }
+    .center-box3{
+        div{
+            background-image: url("../images/cinema_57.png");
+        }        
+    }
+    .center-box4{
+        div{
+            background-image: url("../images/cinema_53.png");
+        }        
+    }
+    .center-box5{
+        div{
+            background-image: url("../images/cinema_64.png");
+        }        
+    }
+}
+
+
+// 尾部
+#footer{
+    width: 100%;
+    background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    padding: .1rem;
+    box-sizing: border-box;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: .5rem;
+        justify-content: space-evenly;
+        li{
+            text-align: center;
+            line-height: normal;
+            line-height: 0.4rem;
+            span{
+                font-size: .28rem;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+

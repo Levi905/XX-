@@ -1,0 +1,32 @@
+#footer {
+  width: 100%;
+  background-color: rosybrown;
+  position: fixed;
+  bottom: 0;
+  padding: .1rem;
+  box-sizing: border-box;
+}
+
+#footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: .5rem;
+  justify-content: space-evenly;
+}
+
+#footer ul li {
+  text-align: center;
+  line-height: normal;
+  line-height: 0.4rem;
+}
+
+#footer ul li span {
+  font-size: .28rem;
+}
+
+#footer ul li span a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,86 @@
+#cinema-main {
+  width: 52%;
+  display: flex;
+  margin-left: 23%;
+  margin-top: 20px;
+}
+
+#cinema-main #cinema-main-left {
+  width: 72%;
+}
+
+#cinema-main #cinema-main-left #main-top {
+  background-color: #eeeeee;
+  padding: 1%;
+}
+
+#cinema-main #cinema-main-left #main-top span {
+  color: #e60020;
+}
+
+#cinema-main #cinema-main-left h1 {
+  margin-top: 10px;
+  font-size: 24px;
+  padding: 2%;
+  border-bottom: 1px dotted #ccc;
+}
+
+#cinema-main #cinema-main-left h1 span {
+  color: #e60020;
+}
+
+#cinema-main #cinema-main-left .card {
+  border: none;
+  height: 291px;
+}
+
+#cinema-main #cinema-main-left .card .col-md-4 img {
+  width: 100%;
+}
+
+#cinema-main #cinema-main-left .card .col-md-8 .card-text {
+  color: #333333;
+  font-size: 12px;
+}
+
+#cinema-main #cinema-main-left #m-t-nav {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  border-bottom: 3px solid #f0343c;
+}
+
+#cinema-main #cinema-main-left #m-t-nav p {
+  width: 14%;
+  height: 35px;
+  text-align: center;
+  padding: 1%;
+  background-color: #eeeeee;
+  margin-bottom: 0;
+  min-width: 72px;
+}
+
+#cinema-main #cinema-main-left #m-t-nav .word-color {
+  background-color: #f0343c;
+  color: white;
+}
+
+#cinema-main #cinema-main-left #m-t-main {
+  margin-top: 10px;
+  width: 100%;
+  padding: 2%;
+}
+
+#cinema-main #cinema-main-left #m-t-main h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#cinema-main #cinema-main-left #m-t-main p {
+  font-size: 12px;
+  color: #666666;
+}
+
+#cinema-main #cinema-main-left #m-t-main img {
+  width: 100%;
+}

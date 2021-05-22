@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../util/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/zhifu.min.css">
+    <link rel="stylesheet" href="../css/head.min.css">
+    <link rel="stylesheet" href="../css/footer.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="top-top">
+        <ul>
+            <li><img src="../images/cinema_03.png" alt=""></li>
+            <li><img src="../images/cinema_05.png" alt=""></li>
+            <li><a href="#">登录</a></li>|
+            <li><a href="#">注册</a></li>|
+            <li> 全国服务热线：888-8888888</li>
+        </ul>
+    </div>
+    <div id="top-logo">
+        <div id="top-logo-img">
+            <img src="../images/cinema_10.png" alt="">
+        </div>
+        <p>佛山<br><span>[更换城市]</span></p>
+    </div>
+    <div id="top-nav">
+        <ul>
+            <li class="red"><a href="#">首页</a></li>|
+            <li class=""><a href="#">影片</a></li>|
+            <li class=""><a href="#">影城</a></li>|
+            <li class=""><a href="#">购票</a></li>|
+            <li class=""><a href="#">影城活动</a></li>|
+            <li class=""><a href="#">会员服务</a></li>|
+            <li class=""><a href="#">顾客互动</a></li>|
+        </ul>
+        <input type="text" placeholder="搜索影片" id="search"><button id="btn-search"></button>
+    </div>
+    <!-- 中间内容 -->
+    <div id="center-box">
+        <!-- 小导航 -->
+        <div class="daohang">
+            <p>购票</p>
+            <p><img src="../images/xuanzuo_06.png" alt=""> 返回上一步</p>
+        </div>
+        <!-- 指南 -->
+        <div>
+            <p>1.选择影片及场次<img src="../images/xuanzuo_04.png" alt=""></p>
+            <p>2.选择座位并手机号<img src="../images/xuanzuo_04.png" alt=""></p>
+            <p>3.确认订单并支付</p>
+        </div>
+        <!-- 支付方式 -->
+        <div>
+            <p>选择支付方式</p>
+            <div>
+                <input type="radio">
+                <img src="../images/zhifu2.jpg" alt="">
+                <div>
+                    <ul>
+                        <li><input type="checkbox">会员卡一</li>
+                        <li>卡号：8888888888888888888</li>
+                        <li>余额:<span>￥888.00</span></li>
+                        <li>会员价:<span>￥128.00</span></li>
+                    </ul>
+                    <ul>
+                        <li><input type="checkbox">会员卡一</li>
+                        <li>卡号：8888888888888888888</li>
+                        <li>余额:<span>￥888.00</span></li>
+                        <li>会员价:<span>￥128.00</span></li>
+                    </ul>
+                    <ul>
+                        <li><input type="checkbox">会员卡二</li>
+                        <li>卡号：8888888888888888888</li>
+                        <li>余额:<span>￥888.00</span></li>
+                        <li>会员价:<span>￥128.00</span></li>
+                    </ul>
+                    <button class="zhiFu-1">立即支付</button>
+                </div>
+                <!-- 支付方式 -->
+                <div id="fu-fangshi">
+                     <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        立即支付
+    </button>
+                    <ul>
+                        <li>
+                            <input type="radio" name="img" id="">
+                            <img src="../images/zhifu1.jpg" alt="">
+                            <h6>
+                                <span class="price1">￥64.00</span>×2<br>
+                                总金额：<span class="sum1">￥128.00</span>
+                            </h6>
+                        </li>
+                        <li>
+                            <input type="radio" name="img" id="">
+                            <img src="../images/zhifu.jpg" alt="">
+                            <h6>
+                                <span class="price2">￥64.00</span>×2<br>
+                                总金额：<span class="sum2">￥128.00</span>
+                            </h6>
+                        </li>
+                    </ul>
+                    <!-- <button class="zhiFu-2">立即支付</button> -->
+                </div>
+            </div>
+        </div>
+        <!-- 右侧倒计时 -->
+        <div id="right-timer">
+            <div class="timer">
+                请在 15分钟内完成付款，<br>
+                否则系统将自动释放已选座位。
+                <p>剩余支付时间:</p>
+                <span class="shi">0</span><span class="fen">8</span><span>:</span><span class="miao">38</span>
+            </div>
+            <p class="zhuyi">
+                注意事项:
+            </p>
+            <div id="text">
+                1、 请仔细核对您的购票信息，确认后 选择支付方式进行支付操作；<br>
+                2、 请于电影上映前，请凭手机短信或 打印的订单前往影城柜台兑换当天电影票；<br>
+                3、 如不小心删除手机短信，可前往我的订单中重新发送；<br>
+                4、 如排片表有所更改，以影城当天排片为准；<br>
+                5、 已取票订单一律不退不换。<br>
+                6、 目前各影院只提供当天影片的取票服务。非当天影片请您于观影当天前往柜台取票。<br>
+                7、开场前三小时内无法执行退票操作。<br>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><img src="../images/qurenzhizf_06.png" alt="">&nbsp;详情信息
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   订单号：<span>2014021088888888</span><br>
+                    <p>影片：<span>澳门风云</span></p>
+                    <p>影厅：<span>IMAX厅</span></p>
+                    <p>影城：<span>星星国际影城</span></p>
+                    <p>时间：<span>2014-02-10 13:30</span></p>
+                    <p id="seats">数量：5张<span class="seat">5排12座</span><span class="seat">8排10座</span><span class="seat">8排11座</span><span class="seat">8排12座</span><span class="seat">8排13座</span></p>
+                    <p>单价：<span>元/张 ，总金额： 元</span></p>
+                    <p>手机号码：13318702255</p>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-primary" id="btn-primary">确认支付</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- 尾部 -->
+    <div id="footer">
+        <div id="footer-top">
+            <ul>
+                <li><img src="../images/cinema_67.png" alt=""> 新手上路</li>
+                <li>注册登录问题</li>
+                <li>用户绑定会员卡问题</li>
+                <li>影票相关问题</li>
+                <li>票价和支付问题</li>
+                <li>取票凭证吗和取票问题</li>
+            </ul>
+            <ul>
+                <li><img src="../images/cinema_69.png" alt="">购票指南</li>
+                <li>用户购票流程</li>
+                <li>取票观影指南</li>
+                <li>会员卡支付相关说明</li>
+                <li>网银支付相关说明</li>
+            </ul>
+            <ul>
+                <li><img src="../images/cinema_72.png" alt="">会员权益</li>
+                <li>会员订票权益</li>
+                <li>会员积分权益</li>
+                <li>入会资格</li>
+                <li>会员卡折扣说明</li>
+
+            </ul>
+            <ul>
+                <li><img src="../images/cinema_74.png" alt="">联系我们</li>
+                <li>手机客户端介绍与下载</li>
+                <li>影片信息查询</li>
+                <li>手机自助购票</li>
+            </ul>
+        </div>
+
+        <div id="footer-bottom">
+            <p>
+                公司介绍 - 合作咨询 - 友情链接 - 网站地图 - 站长统计 - 网站声明
+            </p>
+            <p>
+                Copyright © 2013 ed by
+            </p>
+        </div>
+    </div>
+
+
+
+    <script src="../util/jQuery/jquery-3.5.0.min.js"></script>
+    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
