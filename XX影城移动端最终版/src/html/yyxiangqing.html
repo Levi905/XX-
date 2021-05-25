@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../util/bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/yyxiangqing.css">
+    <script src="../js/screen-adjust.js"></script>
+</head>
+<body>
+    <!-- header图片 -->
+    <div id="header-img">
+        <a href=""><i class="bi bi-arrow-left" style="color: white;font-size: 0.7rem;"></i></a>
+    </div>
+    <!-- 详细地址 -->
+    <div id="box-text">
+        <h6>成都温江旭和影城</h6>
+        <p>四川省成都市温江区文化路1号人民商场门口至交大立交方向内测3楼温江旭和影城</p>
+    </div>
+    <!-- 信息 -->
+    <div id="box-text2">
+        <ul>
+            <li><i class="bi bi-geo-alt" style="color: blue;font-size: 0.5rem;font-size: 0.3rem;"></i>1.0km<br><span>15分钟</span></li>
+            <li><span class="border color">￥</span><span class="border color">￥</span><span class="border">￥</span><span class="border">￥</span></i><br>￥30起</li>
+            <li><i class="bi bi-star-fill" style="color: blue;font-size: 0.3rem;"></i> 4.8<br><span>1000+评分</span></li>
+        </ul>
+    </div>
+    <!-- 特色电影 -->
+    <div id="tese">
+        <h4>特色电影</h4>
+        <div class="tese-1">
+           <div></div>
+           <div>
+               <h6><a href="movie-main.html"> 哪吒之魔童降世</a></h6>
+               <p>￥35.90起</p>
+               放映时间<br><br>
+               <span>13:00</span><span>15:00</span><span>17:00</span><br><br>
+               <span>19:00</span><span>21:00</span>
+           </div>
+        </div>
+        <div class="tese-1">
+            <div></div>
+            <div>
+                <h6>哪吒之魔童降世</h6>
+                <p>￥35.90起</p>
+                放映时间<br><br>
+                <span>13:00</span><span>15:00</span><span>17:00</span><br><br>
+                <span>19:00</span><span>21:00</span>
+            </div>
+         </div>
+    </div>
+
+    <script src="../util/jQuery/jquery-3.5.0.min.js"></script>
+    <script>
+        $(".tese-1").on("click","span",function(e){
+            $elem=$(this);
+            $class=$elem.attr("class");
+            $elem.addClass("blue");
+            if($class!==""){
+                $elem.css("border","2px solid blue");
+                $elem.removeClass("blue");
+            }else{
+                $elem.css("border","1px solid blue");
+            }
+        });
+    </script>
+</body>
+</html>

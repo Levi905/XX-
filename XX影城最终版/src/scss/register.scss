@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+#register_top_user{
+    width: 100%;
+    height: 28px;
+    
+    p{
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    p:first-child{
+        margin-left: 70%;
+    }
+}
+#register_top_logo{
+    width: 100%;
+    height: 93px;
+    background-color: #ffffff;
+    display: flex;
+    img{
+        width: 11%;
+        height: 49px;
+        margin-top: 22px;
+        margin-left: 25%;
+    }
+    div{
+        font-size: 22px;
+	    font-weight: normal;
+	    font-stretch: normal;
+	    line-height: 93px;
+	    letter-spacing: 0px;
+	    color: #000000;
+        margin-left: 1%;
+    }
+}
+#register_register{
+    width: 835px;
+	height: 510px;
+    margin: 0 auto;
+    margin-top: 39px;
+    display: flex;
+    .left{
+        width: 540px;
+	    height: 510px;
+        background-color: #ffffff;
+        p{
+            margin: 0;
+            padding: 0;
+            margin-left: 130px;
+            font-family: MicrosoftYaHei;
+	        font-size: 12px;
+	        font-weight: normal;
+	        font-stretch: normal;
+	        line-height: 16px;
+	        letter-spacing: 0px;
+	        color: #999999;
+        }
+        div{
+            display: flex;
+            line-height: 34px;
+        }
+        input{
+            width: 333px;
+            background-repeat: no-repeat;
+            padding-left: 36px;
+            outline: none;
+        }
+        .yan input{
+            width: 249px;
+        }
+        div:first-child{
+                margin-left: 41px;
+                margin-top: 21px;
+            img{
+                width: 35px;
+                height: 35px;
+                
+            }
+            span{
+	            height: 19px;
+                margin-left: 11px;
+	            font-family: MicrosoftYaHei;
+	            font-size: 22px;
+	            font-weight: bold;
+	            font-stretch: normal;
+	            line-height: 40px;
+	            letter-spacing: 0px;
+	            color: #666666;
+            }
+        }
+        .xian{
+            width: 468px;
+            margin: 0 auto;
+            margin-top: 26px;
+            border: 0.5px dashed gray;
+        }
+        .username{
+            height: 34px;
+            margin-top: 24px;
+            margin-left: 68px;
+            input{
+                background-image: url("../images/register_user.png");
+            }
+        }
+        .password{
+            height: 34px;
+            margin-left: 83px;
+            input{
+                background-image: url("../images/register_password.png");
+            }
+        }
+        .repassword{
+            height: 34px;
+            margin-left: 51px;
+            input{
+                background-image: url("../images/register_password.png");
+            }
+        }
+        .email{
+            height: 34px;
+            margin-left: 83px;
+            input{
+                background-image: url("../images/register_email.png");
+            }
+        }
+        .yan{
+            height: 34px;
+            margin-left: 68px;
+            input{
+                background-image: url("../images/register_yan.png");
+            }
+        }
+        .agreement {
+            width: 300px;
+	        height: 40px;
+            margin-left: 130px;
+            display: flex;
+            flex-wrap: wrap;
+            input{
+                margin: 0;
+                padding: 0;
+                width: 13px;
+                height: 13px;
+                margin-top: 8px;
+                margin-right: 4px;
+            }
+            span{
+	            height: 13px;
+	            font-family: MicrosoftYaHei;
+	            font-size: 15px;
+	            font-weight: normal;
+	            font-stretch: normal;
+	            line-height: 30px;
+	            letter-spacing: 0px;
+	            color: #666666;
+            }
+        }
+    }
+    .rigth{
+        width: 295px;
+	    height: 510px;
+        text-align: center;
+        img{
+            width: 289px;
+	        height: 163px;
+            margin-top: 155px;
+        }
+        span:last-child{
+            color: red;
+        }
+    }
+    #register_button_register{
+        border: none;
+        padding: 0;
+        width: 218px;
+	    height: 42px;
+	    background-color: #f40733;
+        margin-top: 19px;
+        margin-left: 135px;
+	    font-family: MicrosoftYaHei;
+	    font-size: 18px;
+	    font-weight: normal;
+	    font-stretch: normal;
+	    line-height: 16px;
+	    letter-spacing: 0px;
+	    color: #ffffff;
+    }
+}

@@ -1,0 +1,132 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#center-box{
+    width: 52.5%;
+    margin: auto;
+    margin-left: 23%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: #f6f6f6;
+    .title{
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+        color: #ffffff;
+        display: flex;
+        text-align: center;
+        border-bottom: 3px solid #f0343c;
+        position: relative;
+        background-color: #ffffff;
+        span:nth-child(1){
+            width: 15%;
+            height: 100%;
+            display: block;
+            background-image: url("../images/goupiao_01.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        span:nth-child(2){
+            width: 15%;
+            height: 100%;
+            display: block;
+            margin-left: 1%;
+            background-image: url("../images/goupiao_05.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .title-right{
+            color: red;
+            position: absolute;
+            right: 0;
+        }
+    }
+    .center-box-nav{
+        width: 95%;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 3.2%;
+        margin-top: 2%;
+        border-bottom: 1px dashed #e6e6e6;
+        ul{
+            width:100%;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            font-size: 12px;
+            text-align: center;
+            list-style: none;
+            display: flex;
+            flex-wrap: nowrap;
+            // justify-content: space-evenly;
+            li{
+                width: 18%;
+                margin-left: .5%;
+                // min-width: 141px;
+                background-color: #aaaaaa;
+            }
+            li:nth-child(1){
+                background-color: #f0343c;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 100%;
+                    left: 45%;
+                }
+            }
+        }
+    }
+    .center-box-main{
+        width: 94%;
+        // margin-left: 3.2%;
+        // margin-top: 3%;
+        padding: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .center-box-text{
+            width: 49%;
+            height: 300px;
+            margin-bottom: 2%;
+            img{
+                width: 100%;
+            }
+            .div-text{
+                width: 100%;
+                height: 100px;
+                font-size: 12px;
+                padding: 0 2%;
+                box-sizing: border-box;
+                background-color: #ffffff;
+                p{
+                    margin: 0;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+#chose-page{
+    width: 100%;
+    height: 80px;
+    padding-top: 3%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #ebebeb;
+    button{
+        border:1px solid #ccc;
+        outline: none;
+        background-color: #fff;
+        margin-left: 1%;
+    }
+    button:hover{
+        background-color: red;
+        color: white;
+    }
+}

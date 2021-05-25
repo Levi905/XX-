@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../util/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../util/bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/qrdingdan.min.css">
+</head>
+
+<body>
+    <script src="../js/pmshipei.js"></script>
+    <!-- 头部 -->
+    <div id="header">
+        <a href="" style="color: white;"><i class="bi bi-arrow-left"></i></a><br>确认订单
+    </div>
+    <!-- 影片说明 -->
+    <div id="yp-shuom">
+        <div></div>
+        <p><span class="danhao">订单号：72132342241</span>
+            <span>哪吒之魔童降世</span>
+            成都双楠电影城·英文2D
+        </p>
+    </div>
+    <!-- 观影说明 -->
+    <div id="gy-shuom">
+        <table>
+            <thead>
+                <tr>
+                    <td>观影日期</td>
+                    <td class="td-right">时间</td>
+                </tr>
+                <tr>
+                    <td class="font">2020-04-16 星期一</td>
+                    <td class="td-right font">19：00</td>
+                </tr>
+                <tr>
+                    <td>座位</td>
+                    <td class="td-right">座位总数</td>
+                </tr>
+                <tr>
+                    <td class=" blue weihao"><span>F4</span><span>F5</span><span>F6</span></td>
+                    <td class="td-right font count">3</td>
+                    <!-- weihao座位号 -->
+                    <!-- count选座总数 -->
+                </tr>
+                <tr>
+                    <td>总价</td>
+                    <td class="td-right">服务费</td>
+                </tr>
+                <tr>
+                    <td class="font sum">￥120.00</td>
+                    <!-- sum总价 -->
+                    <td class="td-right font fuwu">￥3.00</td>
+                    <!-- fuwu服务费 -->
+                </tr>
+                <tr>
+                    <td>优惠<br><span>-￥0.00</span></td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <!-- 总计 -->
+    <div id="yp-sum">
+        <p>总计<span class="sum1">￥123.00</span></p>
+        <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              去支付
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel"></h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">退出支付</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                           <img src="../images/lijizhifu_03.png" alt="">
+                        </div>
+                        <p>总计<span class="sum2">￥123.00</span></p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" id="zhi-fu"><a href="zhifucg.html">立即支付</a> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="../util/jQuery/jquery-3.5.0.min.js"></script>
+    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

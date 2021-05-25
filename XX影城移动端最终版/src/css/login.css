@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body, html {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: 50px;
+  font-family: "楷体";
+}
+
+body #login_top, html #login_top {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  background-color: rosybrown;
+  font-size: 0.5rem;
+  padding-top: 1.2rem;
+}
+
+body #login_top div, html #login_top div {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 0.3rem;
+}
+
+body #login_top span, html #login_top span {
+  padding-left: 0.3rem;
+}
+
+body #login_user, html #login_user {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+body #login_user p, html #login_user p {
+  width: 100%;
+  margin: 0;
+  font-size: 0.2rem;
+}
+
+body #login_user input, html #login_user input {
+  width: 6rem;
+  border-radius: 9px;
+  height: 0.8rem;
+}
+
+body #login_pass, html #login_pass {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+body #login_pass p, html #login_pass p {
+  width: 6rem;
+  margin: 0;
+  font-size: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+body #login_pass input, html #login_pass input {
+  width: 6rem;
+  border-radius: 9px;
+  height: 0.8rem;
+}
+
+body button, html button {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: .28rem;
+  width: 5rem;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: royalblue;
+}
+
+body button:nth-of-type(1), html button:nth-of-type(1) {
+  background-color: royalblue;
+  height: 0.8rem;
+  border-radius: 5px;
+  color: white;
+}

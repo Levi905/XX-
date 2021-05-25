@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=j1EgAaOaXBxSH4RN1hcl0FUALCEd0lfs"></script>
+    <link rel="stylesheet" href="../util/bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/yingyuan.min.css">
+    <script src="../js/screen-adjust.js"></script>
+</head>
+<style>
+    html,
+    body,
+    #allmap {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    #allmap{
+        width: 70%;
+        height: 40%;
+        margin-top: -100%;
+        margin-left: 10%;
+        border-radius: 50%;
+    }
+    #result {
+        padding: 7px 10px;
+        position: fixed;
+        top: 10px;
+        left: 15px;
+        font-size: 18px;
+        width: 100%;
+        background: rosybrown;
+        border-radius: 7px;
+        z-index: 99;
+    }
+
+    #cityName {
+        width: 170px;
+        margin-right: 10px;
+        height: 25px;
+        border: 1px solid rgba(27, 142, 236, 0.5);
+        border-radius: 5px;
+    }
+
+    #result button {
+        border: 1px solid rgba(27, 142, 236, 0.5);
+        border-radius: 5px;
+        background: rgba(27, 142, 236, 0.5);
+        color: #fff
+    }
+</style>
+
+<body>
+    <script src="../util/jQuery/jquery-3.5.0.min.js"></script>
+    <!-- 头部 -->
+    <div id="header-box">
+        <p><i class="bi bi-film" style="color: black;"></i> 试试我们最好的电影院</p>
+    </div>
+    <!-- gps -->
+    <div id="gps-cs" class="on">
+        <i class="bi bi-geo-alt"></i>成都<i class="bi bi-caret-down" id="icon" style="margin-left: 4.5rem;"></i>
+    </div>
+    <!-- 就近影城 -->
+    <div id="center-box">
+        <div class="center-box1">
+            <div></div>
+            <p><a href="yyxiangqing.html">成都温江旭和影城</a> <br><i class="bi bi-geo-alt" style="color: blue;font-size: 0.3rem;"></i> 1.0km</p>
+        </div>
+        <div class="center-box2">
+            <div></div>
+            <p>万达影城<br><i class="bi bi-geo-alt" style="color: blue;font-size: 0.3rem;"></i> 1.0km</p>
+        </div>
+        <div class="center-box3">
+            <div></div>
+            <p>万达影城(红牌楼广场店)<br><i class="bi bi-geo-alt" style="color: blue;font-size: 0.3rem;"></i> 1.6km</p>
+        </div>
+        <div class="center-box4">
+            <div></div>
+            <p>成都双楠电影城<br><i class="bi bi-geo-alt" style="color: blue;font-size: 0.3rem;"></i> 1.9km</p>
+        </div>
+        <div class="center-box5">
+            <div></div>
+            <p>太平洋影城<br><i class="bi bi-geo-alt" style="color: blue;font-size: 0.3rem;"></i> 2.0km</p>
+        </div>
+
+    </div>
+    <!-- 尾部 -->
+    <div id="footer">
+        <ul>
+            <li><i class="bi bi-receipt"></i><br><span><a href="">首页</a></span></li>
+            <li><i class="bi bi-play-btn"></i><br><span><a href="">视频</a></span></li>
+            <li><i class="bi bi-menu-up"></i><br><span><a href="">详情</a></span></li>
+            <li><i class="bi bi-person"></i><br><span><a href="">我的</a></span></li>
+        </ul>
+    </div>
+
+    <!-- 地图 -->
+    <div id='allmap'></div>
+    <div id='result'>
+        城市名: <input id="cityName" type="text"/>
+		<button onclick="theLocation()"/>查询</button>
+    </div>
+    <script>
+        // 百度地图API功能
+        var map = new BMapGL.Map("allmap");
+        var point = new BMapGL.Point(116.331398,39.897445);
+        map.centerAndZoom(point,11);
+
+        function theLocation(){
+            var city = document.getElementById("cityName").value;
+            if(city != ""){
+                map.centerAndZoom(city,11);      // 用城市名设置地图中心点
+            }
+        }
+        // 小地图显示/隐藏
+        $("body").on("click","#gps-cs",function(e){
+            $elem=$(this);
+            var $result = $("#result");
+            var $class = $elem.attr("class");
+            var $allmap = $("#allmap");
+            if($class!="on"){
+                $allmap.hide();
+                $result.hide();
+                $elem.addClass("on")
+            }else {
+                $allmap.show();
+                $result.show(); 
+                $elem.removeClass("on")
+            }
+            
+        });
+        // 页面加载完成时隐藏小地图
+        $(document).ready(function(){
+            var $allmap = $("#allmap");
+            var $result = $("#result");
+            $allmap.hide();
+            $result.hide();
+        });
+    </script>
+
+</body>
+
+</html>

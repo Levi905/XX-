@@ -1,314 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../util/bootstrap-4.6.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/right.min.css">
-    <link rel="stylesheet" href="../css/head.min.css">
-    <link rel="stylesheet" href="../css/footer.min.css">
-    <link rel="stylesheet" href="../css/movie.min.css">
-    <style>
-    
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../util/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/right.min.css">
+  <link rel="stylesheet" href="../css/head.min.css">
+  <link rel="stylesheet" href="../css/footer.min.css">
+  <link rel="stylesheet" href="../css/movie.min.css">
+  <link rel="stylesheet" href="../util/css3-loading/css/style.css">
+  <script src="../util/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+  
+  <style>
+
+  </style>
 </head>
+
 <body>
-    <!-- 头部 -->
-    <div id="top-top">
-     <ul>
-         <li><img src="../images/cinema_03.png" alt=""></li>
-         <li><img src="../images/cinema_05.png" alt=""></li>
-         <li><a href="#">登录</a></li>|
-         <li><a href="#">注册</a></li>|
-         <li> 全国服务热线：888-8888888</li>
-     </ul>
- </div>
- <div id="top-logo">
-     <div id="top-logo-img">
-         <img src="../images/cinema_10.png" alt="">
-     </div>
-     <p>佛山<br><span>[更换城市]</span></p>
- </div>
- <div id="top-nav">
-     <ul>
-         <li class="red"><a href="#">首页</a></li>|
-         <li class=""><a href="#">影片</a></li>|
-         <li class=""><a href="#">影城</a></li>|
-         <li class=""><a href="#">购票</a></li>|
-         <li class=""><a href="#">影城活动</a></li>|
-         <li class=""><a href="#">会员服务</a></li>|
-         <li class=""><a href="#">顾客互动</a></li>|
-     </ul>
-     <input type="text" placeholder="搜索影片" id="search"><button id="btn-search"></button>
- </div>
- 
+  <script src="../js/movie.js"></script>
+  <!-- 头部 -->
+  <div id="top-top">
+    <ul>
+      <li><img src="../images/cinema_03.png" alt=""></li>
+      <li><img src="../images/cinema_05.png" alt=""></li>
+      <li><a href="#">登录</a></li>|
+      <li><a href="#">注册</a></li>|
+      <li> 全国服务热线：888-8888888</li>
+    </ul>
+  </div>
+  <div id="top-logo">
+    <div id="top-logo-img">
+      <img src="../images/cinema_10.png" alt="">
+    </div>
+    <p>佛山<br><span>[更换城市]</span></p>
+  </div>
+  <div id="top-nav">
+    <ul>
+      <li class="red"><a href="#">首页</a></li>|
+      <li class=""><a href="#">影片</a></li>|
+      <li class=""><a href="#">影城</a></li>|
+      <li class=""><a href="#">购票</a></li>|
+      <li class=""><a href="#">影城活动</a></li>|
+      <li class=""><a href="#">会员服务</a></li>|
+      <li class=""><a href="#">顾客互动</a></li>|
+    </ul>
+    <input type="text" placeholder="搜索影片" id="search"><button id="btn-search"></button>
+  </div>
 
 
 
 
 
 
-    <div id="cinema-main">
-        <div id="cinema-main-left">
-            <div id="main-top">
-                共<span> 88 </span>部电影等你观看
-            </div>
-            <!-- 插入卡片 -->
-            <div class="card mb-3" style="max-width: 720px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="../images/movie_03.png" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">哪吒之魔童降世</h5>
-                      <p class="card-text">导   &nbsp   &nbsp       演 ：饺子</p>
-                      <p class="card-text">领衔主演：周润发、谢霆锋、景甜、杜汶泽、高虎、张晋、童菲、伍允龙、许绍雄</p>
-                      <p class="card-text">国家/地区：中国/香港</p>
-                      <p class="card-text">片  &nbsp   &nbsp            长 ：95分钟</p>
-                        <button id="btn-pay">购买选座</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 720px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="../images/movie_03.png" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">哪吒之魔童降世</h5>
-                      <p class="card-text">导   &nbsp   &nbsp       演 ：饺子</p>
-                      <p class="card-text">领衔主演：周润发、谢霆锋、景甜、杜汶泽、高虎、张晋、童菲、伍允龙、许绍雄</p>
-                      <p class="card-text">国家/地区：中国/香港</p>
-                      <p class="card-text">片  &nbsp   &nbsp            长 ：95分钟</p>
-                        <button id="btn-pay">购买选座</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
+
+  <div id="cinema-main">
+    <div id="cinema-main-left">
+      <div id="main-top">
+        共<span> 88 </span>部电影等你观看
+      </div>
+      <!-- 插入卡片 -->
+      <div class="loader">
+        <div class="face">
+          <div class="circle"></div>
         </div>
+        <div class="face">
+          <div class="circle"></div>
+        </div>
+      </div>
 
-        <!-- 
+    </div>
+
+    <!-- 
           重复右边
          -->
 
-        <div id="cinema-main-right">
-            <div id="c-m-r-top">
-              <p>快速购票<br><span>QUICK TICKET</span></p>
-              <input type="text" placeholder="选择影院" id="cinema"><br>
-              <input type="text" placeholder="选择电影" id="movie"><br>
-              <input type="text" placeholder="选择时间" id="date"><br>
-              <input type="text" placeholder="选择场次" id="times"><br>
-              <button id="quick-buy">立即购票</button>
+    <div id="cinema-main-right">
+      <div id="c-m-r-top">
+        <p>快速购票<br><span>QUICK TICKET</span></p>
+        <input type="text" placeholder="选择影院" id="cinema"><br>
+        <input type="text" placeholder="选择电影" id="movie"><br>
+        <input type="text" placeholder="选择时间" id="date"><br>
+        <input type="text" placeholder="选择场次" id="times"><br>
+        <button id="quick-buy">立即购票</button>
+      </div>
+      <div id="c-m-r-bottom">
+        <p><span>影院活动</span>更多>></p>
+
+        <!-- 插入卡片 -->
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="../images/cinema_40.png" alt="...">
             </div>
-            <div id="c-m-r-bottom">
-              <p><span>影院活动</span>更多>></p>
-
-              <!-- 插入卡片 -->
-
-              <div class="card mb-3" style="max-width: 540px;" >
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="../images/cinema_40.png" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">飞驰人生</h5>
-                      <p class="card-text">9月13日上映</p>
-                      <p class="card-text">类型：剧情/悬疑</p>
-                      <p class="card-text">片长：119分钟</p>
-                      <p id="bg">预告片</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px;" >
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="../images/cinema_40.png" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">飞驰人生</h5>
-                      <p class="card-text">9月13日上映</p>
-                      <p class="card-text">类型：剧情/悬疑</p>
-                      <p class="card-text">片长：119分钟</p>
-                      <p id="bg">预告片</p>
-                    </div>
-                  </div>
-                </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">飞驰人生</h5>
+                <p class="card-text">9月13日上映</p>
+                <p class="card-text">类型：剧情/悬疑</p>
+                <p class="card-text">片长：119分钟</p>
+                <p id="bg">预告片</p>
               </div>
             </div>
+          </div>
         </div>
-
-       
-    </div>
-    <!-- 选页 -->
-    <div id="chose-page">
-      <button>首页</button> <button>上一页</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>下一页</button> <button>尾页</button> 共有8页
-    </div>
-
-    <!-- 底部 -->
-<div id="footer">
-  <div id="footer-top">
-      <ul>
-          <li><img src="../images/cinema_67.png" alt=""> 新手上路</li>
-          <li>注册登录问题</li>
-          <li>用户绑定会员卡问题</li>
-          <li>影票相关问题</li>
-          <li>票价和支付问题</li>
-          <li>取票凭证吗和取票问题</li>
-      </ul>
-      <ul>
-          <li><img src="../images/cinema_69.png" alt="">购票指南</li>
-          <li>用户购票流程</li>
-          <li>取票观影指南</li>
-          <li>会员卡支付相关说明</li>
-          <li>网银支付相关说明</li>
-      </ul>
-      <ul>
-          <li><img src="../images/cinema_72.png" alt="">会员权益</li>
-          <li>会员订票权益</li>
-          <li>会员积分权益</li>
-          <li>入会资格</li>
-          <li>会员卡折扣说明</li>
-          
-      </ul>
-      <ul>
-          <li><img src="../images/cinema_74.png" alt="">联系我们</li>
-          <li>手机客户端介绍与下载</li>
-          <li>影片信息查询</li>
-          <li>手机自助购票</li>
-      </ul>
-  </div>
-  <div id="footer-bottom">
-      <p>
-          公司介绍  -  合作咨询  -  友情链接  -  网站地图  -  站长统计  -  网站声明
-      </p>
-      <p>
-          Copyright © 2013  ed by 
-      </p>
-  </div>
-</div>
-
-    <script src="../util/jQuery/jquery-3.5.0.min.js"></script>
-    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
-
-
-    <script>
-
-var movie1={
-    "id": "1292213",
-    "title": "大话西游之大圣娶亲 西遊記大結局之仙履奇緣",
-    "actors": "周星驰 / 吴孟达 / 朱茵",
-    "imgSrc": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg",
-    "director": "刘镇伟",
-    "score": "9.2",
-    "release": "1995-02-04(中国香港) 2014-10-24(中国大陆) 2017-04-13(中国大陆重映) ",
-    "movieType": [
-      1,
-      8,
-      11,
-      3
-    ],
-    "language": " 粤语 / 汉语普通话",
-    "region": "中国香港 中国大陆",
-    "desc": "至尊宝（周星驰 饰）被月光宝盒带回到五百年前，遇见紫霞仙子（朱茵 饰），被对方打上烙印成为对方的人，并发觉自己已变成孙悟空。\n                                    \n  紫霞与青霞（朱茵 饰）本是如来佛祖座前日月神灯的灯芯（白天是紫霞，晚上是青霞），二人虽然同一肉身却仇恨颇深，因此紫霞立下誓言，谁能拔出她手中的紫青宝剑，谁就是她的意中人。紫青宝剑被至尊宝于不经意间拔出，紫霞决定以身相许，却遭一心记挂白晶晶（莫文蔚 饰）的至尊宝拒绝。后牛魔王救下迷失在沙漠中的紫霞，并逼紫霞与他成婚，关键时刻，至尊宝现身。",
-    "duration": "95分钟",
-    "posterSrc": "https://img3.doubanio.com/img/trailer/medium/2455167430.jpg?",
-    "trailerLink": "../../video/302150564.mp4",
-    "comments": [
-      "无论是看第三十遍，还是第三十一遍，我都会对着那个寂寥的背影流泪。那落寞的大圣身上烙印着我青春时所有梦想，我们曾以为自己会成为盖世英雄，以为自己是这个世界的唯一，以为爱情专为自己存在，可是渐渐发现自己和别人没有什么不同，当你踏上社会时，总会有人看着你的背影说：看，他好像条狗啊！",
-      "一生所爱：我的意中人是个盖世英雄，有一天他会穿着金盔金甲，踩着七色的云彩来娶我。我猜中了前头，可是我猜不着这结局……",
-      "坐我旁边的那个年近四十、西装革履的男人从电影刚开始就止不住眼泪，有些地方哭着笑出声。而他的年轻女伴从开头就一直低头玩手机、到经典场景就煞有介事地拍张照片、不到一半时一直嚷嚷着无聊，硬是把那个男人拉走了。",
-      "因为你还没有遇到给你三颗痣的人",
-      "请收藏粤语版。「2010」：1218，这么多年后重看，居然还是湿了。【2014】终于在大荧幕上看了。虽然是普通话。经得起这么多次的反刍，可以确认是经典了。想起东邪西毒重演时提前离场的对比，简直。"
-    ]
-}
-var movie2 ={
-    "id": "1295038",
-    "title": "哈利·波特与魔法石 Harry Potter and the Sorcerer's Stone",
-    "actors": "丹尼尔·雷德克里夫 / 艾玛·沃森 / 鲁伯特·格林特",
-    "imgSrc": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2614949805.jpg",
-    "director": "克里斯·哥伦布",
-    "score": "9.0",
-    "release": "2002-01-26(中国大陆) 2020-08-14(中国大陆重映) 2001-11-04(英国首映) 2001-11-16(美国) ",
-    "movieType": [
-      10,
-      11
-    ],
-    "language": " 英语",
-    "region": "美国 英国",
-    "desc": "哈利波特是一个孤儿，从小寄养在姨妈家，受尽欺凌。但就在哈利11岁生日的时候，他意外收到了霍格沃茨学院的入学通知书。哈利从该学院派来接他的巨人海格口中得知，这是一间魔法学院，并得知了自己的身世，原来哈利的父母都是伟大的魔法师，在对付伏地魔的战斗中双双献身，唯有哈利幸免于难。\n                                    \n                                　　哈利进入霍格沃茨后，表现出了超乎想象的飞行天赋，得到麦格教授的推荐进入了格兰芬多的魁地奇球队。另一方面，哈利发现霍格沃茨学院内有一股黑暗势力似乎在暗暗滋长，揭开谜团的关键就在有凶恶的三头犬守护的房间内。\n                                    \n                                　　哈利、罗恩和赫敏三个好朋友决定探个究竟。",
-    "duration": "152分钟",
-    "posterSrc": "https://img3.doubanio.com/img/trailer/medium/2617066051.jpg?1597302617",
-    "trailerLink": "../../video/402640693.mp4",
-    "comments": [
-      "花了8年才看完这部电影....",
-      "那时候是有多可爱啊，刚接触魔法的种种新鲜和刺激，比起后面的黑暗剧情以及丹尼尔越来越大叔的模样，真是怀念这里啊。",
-      "一个全新的世界被打开了，新奇而不可思议，我们都是麻瓜，幻想一天早上猫头鹰会送来霍格沃兹的入学通知书。铁三角组合很可爱。",
-      "第一部好看啊  哈哈",
-      "哈利波特系列的电影与小说，我能感受他们的喜怒哀乐，一同烦恼学生时代的“难熬”，当这一系列结束时，再回头看这第一部，有一种“曾当年”的感受，我私以为作者以后再写出什么样的故事也不能如当年那样打动人心，毕竟这已成了我心中的白月光，不是吗"
-    ]
-  }
-   
-  var movies = [movie1,movie2]
-  for(var i =0;i<movies.length;i++){
-    showData(movies[i]);
-  }
-
-  function showData(movie){
-    var htmlStr = `
-    <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="${movie.imgSrc}" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">${movie.title}</h5>
-                      <p class="card-text">导   &nbsp   &nbsp       演 ：${movie.director}</p>
-                      <p class="card-text">领衔主演：${movie.actors}</p>
-                      <p class="card-text">国家/地区：${movie.region}</p>
-                      <p class="card-text">片  &nbsp   &nbsp            长 ：${movie.duration}</p>
-                        <button id="btn-pay">购买选座</button>
-                    </div>
-                  </div>
-                </div>
-    `;
-    var $div = $(`<div class="card mb-3" style="max-width: 720px;">${htmlStr}</div>`)
-    $("#cinema-main-left").append($div)
-  }
-
-
-  function showData(movie){
-    var htmlStr = `
-                <div class="card mb-3" style="max-width: 540px;" >
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="${movie.imgSrc}" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">${movie.title}</h5>
-                      <p class="card-text">${movie.score}</p>
-                      <p class="card-text">类型：剧情/悬疑</p>
-                      <p class="card-text">片长：119分钟</p>
-                      <p id="bg">预告片</p>
-                    </div>
-                  </div>
-                </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="../images/cinema_40.png" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">飞驰人生</h5>
+                <p class="card-text">9月13日上映</p>
+                <p class="card-text">类型：剧情/悬疑</p>
+                <p class="card-text">片长：119分钟</p>
+                <p id="bg">预告片</p>
               </div>
-    `;
-    var $div = $(`<div class="card mb-3" style="max-width: 540px;">${htmlStr}</div>`)
-    $("#c-m-r-bottom").append($div)
-  }
-   </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- 选页 -->
+  <div id="chose-page">
+    <button>首页</button> <button>上一页</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button>
+    <button>下一页</button> <button>尾页</button> 共有8页
+  </div>
+
+  <!-- 底部 -->
+  <div id="footer">
+    <div id="footer-top">
+      <ul>
+        <li><img src="../images/cinema_67.png" alt=""> 新手上路</li>
+        <li>注册登录问题</li>
+        <li>用户绑定会员卡问题</li>
+        <li>影票相关问题</li>
+        <li>票价和支付问题</li>
+        <li>取票凭证吗和取票问题</li>
+      </ul>
+      <ul>
+        <li><img src="../images/cinema_69.png" alt="">购票指南</li>
+        <li>用户购票流程</li>
+        <li>取票观影指南</li>
+        <li>会员卡支付相关说明</li>
+        <li>网银支付相关说明</li>
+      </ul>
+      <ul>
+        <li><img src="../images/cinema_72.png" alt="">会员权益</li>
+        <li>会员订票权益</li>
+        <li>会员积分权益</li>
+        <li>入会资格</li>
+        <li>会员卡折扣说明</li>
+
+      </ul>
+      <ul>
+        <li><img src="../images/cinema_74.png" alt="">联系我们</li>
+        <li>手机客户端介绍与下载</li>
+        <li>影片信息查询</li>
+        <li>手机自助购票</li>
+      </ul>
+    </div>
+    <div id="footer-bottom">
+      <p>
+        公司介绍 - 合作咨询 - 友情链接 - 网站地图 - 站长统计 - 网站声明
+      </p>
+      <p>
+        Copyright © 2013 ed by
+      </p>
+    </div>
+  </div>
+
+  <script src="../util/jQuery/jquery-3.5.0.min.js"></script>
+  <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../util/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

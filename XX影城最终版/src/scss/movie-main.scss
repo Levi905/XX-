@@ -1,0 +1,76 @@
+#cinema-main{
+    width: 52%;
+    display: flex;
+    margin-left: 23%;
+    margin-top: 20px;
+    #cinema-main-left{
+        width: 72%;
+       #main-top{
+            background-color: #eeeeee;
+            padding: 1%;
+            span{
+                color: #e60020;
+            }
+        
+       }
+       h1{
+        margin-top: 10px;
+        font-size: 24px;
+        padding: 2%;
+        border-bottom: 1px dotted #ccc;
+        span{
+            color: #e60020;
+        }
+       }
+       .card{
+           border: none;
+           height: 291px;
+           .col-md-4{
+               img{
+                   width: 100%;
+               }
+           }
+           .col-md-8{
+               .card-text{
+                color: #333333;
+                font-size: 12px;
+               }
+           }
+       }
+       #m-t-nav{
+           margin-top: 50px;
+           width: 100%;
+           display: flex;
+           border-bottom: 3px solid #f0343c;
+            p{  width: 14%;
+                height: 35px;
+                text-align: center;
+                padding: 1%;
+                background-color: #eeeeee;
+                margin-bottom: 0;
+                min-width: 72px;
+            }
+            .word-color{
+                background-color: #f0343c;
+                color: white;
+            }
+            
+       }
+       #m-t-main{
+           margin-top: 10px;
+           width: 100%;
+           padding: 2%;
+           h2{
+               font-size: 20px;
+               font-weight: bold;
+           }
+           p{
+            font-size: 12px;
+            color: #666666;
+           }
+           img{
+               width: 100%;
+           }
+       }
+    }
+}

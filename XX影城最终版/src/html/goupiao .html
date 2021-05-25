@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/goupiao .min.css">
+    <link rel="stylesheet" href="../css/head.min.css">
+    <link rel="stylesheet" href="../css/footer.min.css">
+    <title>Document</title>
+    <script src="../util/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+</head>
+<style>
+    /* 立即购票按钮 */
+    .gou-piao {
+        background-color: red;
+    }
+
+    .y-gou-piao {
+        background-color: #a5a5a5;
+    }
+
+    /* 选择影院choose-one & choose-two 中 li border */
+    .choose-one .border {
+        border: 1px solid red;
+    }
+</style>
+
+<body>
+    <!-- 头部 -->
+    <div id="top-top">
+        <ul>
+            <li><img src="../images/cinema_03.png" alt=""></li>
+            <li><img src="../images/cinema_05.png" alt=""></li>
+            <li><a href="#">登录</a></li>|
+            <li><a href="#">注册</a></li>|
+            <li> 全国服务热线：888-8888888</li>
+        </ul>
+    </div>
+    <div id="top-logo">
+        <div id="top-logo-img">
+            <img src="../images/cinema_10.png" alt="">
+        </div>
+        <p>佛山<br><span>[更换城市]</span></p>
+    </div>
+    <div id="top-nav">
+        <ul>
+            <li class="red"><a href="#">首页</a></li>|
+            <li class=""><a href="#">影片</a></li>|
+            <li class=""><a href="#">影城</a></li>|
+            <li class=""><a href="#">购票</a></li>|
+            <li class=""><a href="#">影城活动</a></li>|
+            <li class=""><a href="#">会员服务</a></li>|
+            <li class=""><a href="#">顾客互动</a></li>|
+        </ul>
+        <input type="text" placeholder="搜索影片" id="search"><button id="btn-search"></button>
+    </div>
+    <!-- 中间内容 -->
+    <div id="center-box">
+        <div class="daohang">
+            <p>排片</p>
+            <p>购买指南</p>
+        </div>
+        <!-- 选择影院 -->
+        <div class="choose">
+            <p><span>2013年9月11日（周三)</span><span>2013年9月12日（周四)</span><img src="../images/goupiao_02.png" alt=""></p>
+            <ul class="choose-one">
+                选择影院：
+                <li class="border">广州华影万晟国际影城</li>
+                <li>广州华影青宫电影城</li>
+                <li>广州星汇电影城</li>
+                <li>广州保利国际影城 </li>
+                <li>广州左岸国际电影城</li>
+            </ul>
+            <ul class="choose-two">
+                <li>广州花都太子电影城</li>
+                <li>广州沙湾3D数字电影院</li>
+                <li>广州华影青宫电影城</li>
+                <li>广州星汇电影城</li>
+                <li>广州左岸国际电影城</li>
+            </ul>
+        </div>
+        <!-- 分割p -->
+        <p class="-p">当前找影院的电影：</p>
+        <!-- text-1 -->
+        <div class="text-1">
+            <div>
+                <img src="../images/goupiao_07.png" alt="">
+                <p>哪吒之魔童降世<br>片长：120分钟</p>
+            </div>
+            <div>
+                <ul>
+                    <li>放映时间</li>
+                    <li>影厅空位</li>
+                    <li>语言/版本</li>
+                    <li>影厅</li>
+                    <li>优惠信息</li>
+                    <li>网购价</li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="y-gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="y-gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="y-gou-piao">立即购票</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-2">
+            <div>
+                <img src="../images/goupiao_14.png" alt="">
+                <p>哪吒之魔童降世<br>片长：120分钟</p>
+            </div>
+            <div>
+                <ul>
+                    <li>放映时间</li>
+                    <li>影厅空位</li>
+                    <li>语言/版本</li>
+                    <li>影厅</li>
+                    <li>优惠信息</li>
+                    <li>网购价</li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="y-gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="y-gou-piao">立即购票</button></li>
+                </ul>
+                <ul>
+                    <li>12:20</li>
+                    <li class="piao-yu">余139/150</li>
+                    <li>英语<span>3D</span></li>
+                    <li>5号厅</li>
+                    <li><img src="../images/goupiao_10.png" alt=""></li>
+                    <li class="piao-jia">￥65.00</li>
+                    <li><button class="y-gou-piao">立即购票</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <div id="footer">
+        <div id="footer-top">
+            <ul>
+                <li><img src="../images/cinema_67.png" alt=""> 新手上路</li>
+                <li>注册登录问题</li>
+                <li>用户绑定会员卡问题</li>
+                <li>影票相关问题</li>
+                <li>票价和支付问题</li>
+                <li>取票凭证吗和取票问题</li>
+            </ul>
+            <ul>
+                <li><img src="../images/cinema_69.png" alt="">购票指南</li>
+                <li>用户购票流程</li>
+                <li>取票观影指南</li>
+                <li>会员卡支付相关说明</li>
+                <li>网银支付相关说明</li>
+            </ul>
+            <ul>
+                <li><img src="../images/cinema_72.png" alt="">会员权益</li>
+                <li>会员订票权益</li>
+                <li>会员积分权益</li>
+                <li>入会资格</li>
+                <li>会员卡折扣说明</li>
+
+            </ul>
+            <ul>
+                <li><img src="../images/cinema_74.png" alt="">联系我们</li>
+                <li>手机客户端介绍与下载</li>
+                <li>影片信息查询</li>
+                <li>手机自助购票</li>
+            </ul>
+        </div>
+        <!-- 尾部 -->
+        <div id="footer-bottom">
+            <p>
+                公司介绍 - 合作咨询 - 友情链接 - 网站地图 - 站长统计 - 网站声明
+            </p>
+            <p>
+                Copyright © 2013 ed by
+            </p>
+        </div>
+    </div>
+    <!-- 回到顶部 -->
+    <div class="fixed">
+        <p>回到顶部</p>
+        <img src="../images/goupiao_16.png" alt="">
+    </div>
+
+
+    <script>
+
+function jump(){
+    //跳转
+  var title = decodeURIComponent(location.search) ;
+  console.log(title);
+  var str = title.substr(7);
+    var $lis = $("#top-nav li");
+  $lis.each(function(index,elem){
+    // console.log($(elem).text()) ;
+    $(elem).removeClass("red");
+    if($(elem).text()==str){
+        $(elem).addClass("red")
+    }
+  })
+  }
+  jump();
+    </script>
+</body>
+
+</html>
